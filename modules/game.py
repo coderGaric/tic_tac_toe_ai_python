@@ -41,7 +41,7 @@ class Game:
         elif game_mode == "2":
             self.gamemode = "ai"
             
-            level = input("\nLEVEL | 1 - easy | 2 - difficult: ")
+            level = input("\nLEVEL | 1 - easy | 2 - hard: ")
             
             while level != "1" and level != "2":
                 level = input("Not valid. Please pick again: ")
